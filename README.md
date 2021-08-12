@@ -29,7 +29,7 @@ I metodi PUT e DELETE sono invece “idempotenti”, perché lo stato del sistem
 
 ## Cenni su JAX-RS
 
-**_Jakarta RESTful Web Services (JAX-RS)**_ è una specifica (insieme di regole che quel sistema deve avere) dell’API Jakarta EE che fornisce supporto nella creazione di servizi Web secondo il modello architettonico REST. JAX-RS utilizza le annotazioni, introdotte in Java SE 5, per semplificare lo sviluppo e la distribuzione di client ed endpoint di servizi web.
+_**Jakarta RESTful Web Services (JAX-RS)**_ è una specifica (insieme di regole che quel sistema deve avere) dell’API Jakarta EE che fornisce supporto nella creazione di servizi Web secondo il modello architettonico REST. JAX-RS utilizza le annotazioni, introdotte in Java SE 5, per semplificare lo sviluppo e la distribuzione di client ed endpoint di servizi web.
 
 JAX-RS fornisce alcune annotazioni per aiutare a mappare una classe di risorse (POJO - Plain Old Java Object) come risorsa web. Le annotazioni utilizzano il pacchetto javax.ws.rs e le principali includono:
 * __*@Path*__: specifica il percorso relativo per una classe di risorse o un metodo;
@@ -45,12 +45,21 @@ Le implementazioni (cioè la realizzazione delle linee guida settate dalle speci
 Maven, Tomcat 10, Eclipse IDE, Java 8/11
 
 1. Aprire Eclipse. Creare un nuovo progetto Maven:
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80511726/129180024-bf382f00-f4f3-4a7a-a570-d37e0cf4d0f6.png" width="350" alt="accessibility text">
+</p>
 2. Cliccare su “Next”:
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80511726/129180521-ccc722eb-8340-4cc2-a908-3e15f5b0ad9d.png" width="350" alt="accessibility text">
+</p>
 3.  Selezionare l’archetipo “jersey-quickstart-webapp” per generare il template del progetto con le dipendenze base di Jersey. Cliccare poi su “Next”:
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80511726/129180636-e676948a-7460-476a-ae45-45cf1561c648.png" width="350" alt="accessibility text">
+</p>
 4. Infine, compilare groupId e artifactid  e cliccare su “Fine”:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80511726/129180683-bc218bd8-7b71-4900-81d2-a034a6c9e29d.png" width="350" alt="accessibility text">
+</p>
 
 
 
