@@ -6,6 +6,7 @@ import com.restApi.ResfulApiJaxRS.model.Student;
 import com.restApi.ResfulApiJaxRS.service.StudentService;
 
 import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.DELETE;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.PUT;
@@ -38,7 +39,6 @@ public class StudentResource {
 	@Path("/get-student/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Student getStudentbyId(@PathParam("id") Long id) {
-		
 		return studentService.getStudentById(id);
 	
 	}
@@ -59,6 +59,13 @@ public class StudentResource {
 	public Student update(@PathParam("id") Long id, Student s) {
 		s.setId(id);
 		return studentService.updateStudent(s);
+	}
+	
+	@DELETE
+	@Path("/delete/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String delete(@PathParam("id") Long id) {
+		return studentService.removeStudent(id);
 	}
 
 	/*
