@@ -29,7 +29,7 @@ I metodi PUT e DELETE sono invece “idempotenti”, perché lo stato del sistem
 
 ## Cenni su JAX-RS
 
-_**Jakarta RESTful Web Services (JAX-RS)**_ è una specifica (insieme di regole che quel sistema deve avere) dell’API Jakarta EE che fornisce supporto nella creazione di servizi Web secondo il modello architettonico REST. JAX-RS utilizza le annotazioni, introdotte in Java SE 5, per semplificare lo sviluppo e la distribuzione di client ed endpoint di servizi web.
+>_**Jakarta RESTful Web Services (JAX-RS)**_ è una specifica (insieme di regole che quel sistema deve avere) dell’API Jakarta EE che fornisce supporto nella creazione di servizi Web secondo il modello architettonico REST. JAX-RS utilizza le annotazioni, introdotte in Java SE 5, per semplificare lo sviluppo e la distribuzione di client ed endpoint di servizi web.
 
 JAX-RS fornisce alcune annotazioni per aiutare a mappare una classe di risorse (POJO - Plain Old Java Object) come risorsa web. Le annotazioni utilizzano il pacchetto javax.ws.rs e le principali includono:
 * __*@Path*__: specifica il percorso relativo per una classe di risorse o un metodo;
