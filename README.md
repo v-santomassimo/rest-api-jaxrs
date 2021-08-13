@@ -52,7 +52,7 @@ Maven, Tomcat 10, Eclipse IDE, Java 8/11
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80511726/129180521-ccc722eb-8340-4cc2-a908-3e15f5b0ad9d.png" width="350" alt="accessibility text">
 </p>
-3.  Selezionare l’archetipo __*“jersey-quickstart-webapp”*__ per generare il template del progetto con le dipendenze base di Jersey. Cliccare poi su “Next”:
+3.  Selezionare l’archetipo “jersey-quickstart-webapp” per generare il template del progetto con le dipendenze base di Jersey. Cliccare poi su “Next”:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80511726/129180636-e676948a-7460-476a-ae45-45cf1561c648.png" width="350" alt="accessibility text">
 </p>
