@@ -45,14 +45,14 @@ Le implementazioni (cioè la realizzazione delle linee guida settate dalle speci
 Maven, Tomcat 10, Eclipse IDE, Java 8/11
 
 1. Aprire Eclipse. Creare un nuovo progetto Maven:
-> <p align="center">
+<p align="center">
   <img src="https://user-images.githubusercontent.com/80511726/129180024-bf382f00-f4f3-4a7a-a570-d37e0cf4d0f6.png" width="350" alt="accessibility text">
 </p>
 2. Cliccare su “Next”:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80511726/129180521-ccc722eb-8340-4cc2-a908-3e15f5b0ad9d.png" width="350" alt="accessibility text">
 </p>
-3.  Selezionare l’archetipo _**“jersey-quickstart-webapp”**_ per generare il template del progetto con le dipendenze base di Jersey. Cliccare poi su “Next”:
+3.  Selezionare l’archetipo __*“jersey-quickstart-webapp”*__ per generare il template del progetto con le dipendenze base di Jersey. Cliccare poi su “Next”:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80511726/129180636-e676948a-7460-476a-ae45-45cf1561c648.png" width="350" alt="accessibility text">
 </p>
